@@ -1,0 +1,15 @@
+{
+  "name": "@psicare/desktop",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@psicare/db": "*",
+    "@psicare/types": "*",
+    "@psicare/ui": "*"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "PsiCare",
+    "slug": "psicare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "psicare",
+    "userInterfaceStyle": "automatic",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#FFF6F6" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "mx.psicare.app",
+      "infoPlist": { "NSCameraUsageDescription": "Para tomar fotos en el expediente del paciente." }
+    },
+    "android": {
+      "package": "mx.psicare.app",
+      "adaptiveIcon": { "foregroundImage": "./assets/icon.png", "backgroundColor": "#FCEAEA" }
+    },
+    "plugins": ["expo-router"],
+    "extra": {
+      "supabaseUrl": "",
+      "supabaseAnonKey": ""
+    }
+  }
+}
